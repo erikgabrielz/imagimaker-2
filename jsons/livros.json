@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "titulo": "Robô Explorador - 9º ano",
+    "categoria": "robo",
+    "imagem": "Capa - Robô Explorador - 9° ANO_page-0001.jpg",
+    "autor": "",
+    "serie": "9º ano",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 2,
+    "titulo": "Robô Explorador - 1º ano",
+    "categoria": "robo",
+    "imagem": "Capa - Robô Explorador - 1° ANO_page-0001.jpg",
+    "autor": "Autor de teste",
+    "serie": "1º ano",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 3,
+    "titulo": "Robô Explorador - 2º ano",
+    "categoria": "robo",
+    "imagem": "Capa - Robô Explorador - 2° ANO_page-0001.jpg",
+    "autor": "Autor de teste",
+    "serie": "2º ano",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 4,
+    "titulo": "Codificar",
+    "categoria": "codificar",
+    "imagem": "Codificar_page-0001.jpg",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 5,
+    "titulo": "Maker - 6º ano",
+    "categoria": "maker",
+    "imagem": "Maker 6º ano_page-0001.jpg",
+    "autor": "",
+    "serie": "6º ano",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 6,
+    "titulo": "Maker - Eletrônica",
+    "categoria": "maker",
+    "imagem": "Maker eletronica_page-0001.jpg",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 7,
+    "titulo": "Maker - Infantil",
+    "categoria": "maker",
+    "imagem": "maker infantil_page-0001.jpg",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 8,
+    "titulo": "Maker - Projetos integrados",
+    "categoria": "maker",
+    "imagem": "maker Projetos integrados_page-0001.jpg",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 9,
+    "titulo": "Maker - Prototipagem",
+    "categoria": "maker",
+    "imagem": "Maker Prototipagem_page-0001.jpg",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 10,
+    "titulo": "Pensamento Computacional",
+    "categoria": "pensamento",
+    "imagem": "Pensamento Computacional 3S.png",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 11,
+    "titulo": "Pensar e Praticar - Biologia",
+    "categoria": "pensar",
+    "imagem": "Pensar e praticar bio_page-0001.jpg",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 12,
+    "titulo": "Pensar e Praticar - Física",
+    "categoria": "pensar",
+    "imagem": "Pensar e praticar FIS_page-0001.jpg",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 13,
+    "titulo": "Pensar e Praticar - Matemática",
+    "categoria": "pensar",
+    "imagem": "Pensar e praticar MAT_page-0001.jpg",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 14,
+    "titulo": "Pensar e Praticar - Química",
+    "categoria": "pensar",
+    "imagem": "Pensar e praticar Quim_page-0001.jpg",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 15,
+    "titulo": "ConsciêncIA",
+    "categoria": "consciencia",
+    "imagem": "PNLD ConsciêncIA.jpg",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 16,
+    "titulo": "Robótica Interativa",
+    "categoria": "roboticai",
+    "imagem": "robotica rei e esp.png",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 17,
+    "titulo": "Robótica na Prática - Livro do Professor",
+    "categoria": "roboticap",
+    "imagem": "robotica Seriado_page-0001.jpg",
+    "autor": "",
+    "serie": "",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 18,
+    "titulo": "Robótica na Prática - 2º Ano - Ensino Fundamental",
+    "categoria": "roboticap",
+    "imagem": "ROBOTICA_Na pratica anos iniciais 2º_page-0002.jpg",
+    "autor": "",
+    "serie": "2º ano",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 19,
+    "titulo": "Robótica na Prática - 1ª Série - Ensino Médio",
+    "categoria": "roboticap",
+    "imagem": "ROBOTICA_Na pratica EM_page-0130.jpg",
+    "autor": "",
+    "serie": "1ª série",
+    "ano": "",
+    "sinopse": ""
+  },
+  {
+    "id": 20,
+    "titulo": "Robótica na Prática - 3ª Série - Ensino Médio",
+    "categoria": "roboticap",
+    "imagem": "ROBOTICA_Na pratica EM 3ª_page-0001.jpg",
+    "autor": "",
+    "serie": "3ª série",
+    "ano": "",
+    "sinopse": ""
+  }
+]

@@ -1,0 +1,137 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+
+    .info{
+        text-align: center;
+        margin: 10px 0px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    a{
+        background-color: #48625B;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-color: #48625B;
+    color: white;
+    
+    .container{
+        justify-content: space-between;
+    }
+
+    img{
+        width: 190px;
+        height: 110px;
+    }
+    
+    p{
+        margin-right: 10px;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.adicionar-postagem{
+    max-width: 635px;
+    margin: auto;
+    margin-bottom: 50px;
+    form{
+        display: flex;
+        flex-direction: column;
+
+        label{
+            text-align: center;
+        }
+
+        input, textarea{
+            width: 100%;
+            border: 1px solid black;
+            outline: none;
+            margin: 5px 0px;
+            padding: 5px;
+        }  
+
+        textarea{
+            height: 300px;
+            resize: none;
+        }
+
+        button{
+            margin-top: 5px;
+            background-color: #48625B;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            border: none;
+        }
+
+        button:hover{
+        text-decoration: underline;
+    }
+    }
+}
+section{
+    max-width: 635px;
+
+    table{    
+        margin: auto;   
+        td, th{
+            padding: 5px;
+            text-align: center;
+        }
+
+        a{
+            display: inline-block;
+            margin: 5px 0px;
+        }
+    }
+}
+
+.top-buttons{
+    display: flex; 
+    justify-content: flex-end;
+    max-width: 635px; 
+    margin: 30px auto 0px auto;
+
+    
+}
+
+.todos-posts{
+    margin: 50px auto;
+
+    th a{
+        display: inline-block;
+        margin: 5px 0px;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,137 @@
+main{
+    background-color: #F17C0E;
+}
+
+.bg-container{
+    width: 90%;
+    background-color: #F17C0E;
+    margin: auto;
+    padding: 15px;
+}
+
+.title-blog{
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    p{
+        max-width: 500px;
+        color: black;
+    }
+}
+
+.ultimas-postagens{
+    h2{
+        color: black;
+        font-size: 20pt;
+        font-weight: bold;
+        margin: 0px 0px 30px 0px;
+        padding-left: 30px;
+    }
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center;
+
+    .card{
+        border-radius: 10px;
+        max-width: 250px;
+        overflow: hidden;
+        margin: 0px auto 50px auto;
+        background: transparent;
+        border: none;
+
+        img{
+            height: 200px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .card-text{
+            padding: 10px;
+        }
+
+        .title{
+            font-weight: bold;
+            font-size: 20px;
+            color: black;
+        }
+
+        .description{
+            font-size: 14px;
+            color: black;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .rodape{
+
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 14px;
+
+            span{
+                font-size: 10px;
+            }
+
+            a, span{
+                color: black;
+            }
+
+            a:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.paginacao{
+    text-align: center;
+
+    a{
+        padding: 20px;
+        color: black;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.footer-blog{
+    background-color: transparent;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: black;
+
+    span{
+        color: black;
+        font-size: 16px;
+    }
+
+    a{
+        color: black;
+    }
+
+    .copyright-text{
+        color: black;
+    }
+
+    .social-icon-link:hover {
+        background: black;
+        color: var(--primary-color);
+    }
+}
+
+

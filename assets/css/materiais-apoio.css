@@ -1,0 +1,97 @@
+.video-overlay{
+    bottom: -50px;
+    overflow: auto;
+}
+
+.materiais-apoio{
+    .container-materiais{
+        margin-top: 150px !important;
+    }
+}
+
+.container-materiais{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 200px;
+
+    .item{
+        background-color: #F5811E;
+        max-width: 400px;
+        min-height: 200px;
+        padding: 30px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+
+        .bg-gray{
+            border-radius: 60px;
+            background-color: gray;
+            padding: 10px 10px 0px 0px;
+            height: 100%;
+        }
+
+        .bg-branco{
+            background-color: white;
+            padding: 40px;
+            height: 100%;
+            border-radius: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            p{
+                color: #F5811E !important;
+            }
+
+            .items{
+                display: flex;
+                align-items: center;
+            }
+
+            .left, .right{
+                margin: 20px;
+                div{
+                    font-size: 12px;
+                    margin-bottom: 15px;
+                    color: rgb(102, 102, 102);
+                }
+
+
+                .ativo{
+                    color: rgb(0, 38, 255) !important;
+                }
+            }
+        }
+
+        .links{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            a{
+                color: black;
+                display: inline-block;
+                margin: 10px;
+                font-size: 10px;
+            }
+        }
+
+        a:hover{
+            text-decoration: underline !important;
+        }
+    }
+
+    .capitulo{
+        .left, .right{
+            margin: 20px;
+
+            div{
+                margin-bottom: 0px !important;
+                font-size: 12px;
+            }
+        }
+    }
+}
+

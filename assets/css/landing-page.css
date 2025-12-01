@@ -1,0 +1,25 @@
+.logo-imagi{
+    width: 190px;
+    height: 110px;
+}
+
+.caption{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .caption-text{
+        text-align: center;
+        font-size: 45px !important;
+        color: white;
+        line-height: 55px;
+        user-select: none;
+        width: 100%;
+        
+    }
+}
+
+.description{
+    text-align: justify;
+}
