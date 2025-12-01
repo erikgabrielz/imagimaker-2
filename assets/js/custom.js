@@ -2,6 +2,36 @@
 	
 	"use strict";
 
+	$(window).scroll(function() {
+	  var scroll = $(window).scrollTop();
+	  var box = $('.header-text').height();
+	  var header = $('header').height();
+
+	  if (scroll >= box - header) {
+	    $("header").addClass("background-header");
+	  } else {
+	    $("header").removeClass("background-header");
+	  }
+	});
+	
+	$('.filters ul li').click(function(){
+        $('.filters ul li').removeClass('active');
+        $(this).addClass('active');
+          
+          var data = $(this).attr('data-filter');
+          $grid.isotope({
+            filter: data
+          })
+        });
+
+        var $grid = $(".grid").isotope({
+          itemSelector: ".all",
+          percentPosition: true,
+          masonry: {
+            columnWidth: ".all"
+          }
+        });
+
 
 	const Accordion = {
 	  settings: {
@@ -70,13 +100,13 @@
 	  }
 	};
 
-	// Inicializa as accordions após o DOM estar pronto
-	document.addEventListener('DOMContentLoaded', function () {
-	  const accs = document.getElementsByClassName('accordions');
-	  for (let i = 0; i < accs.length; i++) {
-	    Accordion.init(accs[i]);
+	(function() {
+	  // Initiate all instances on the page
+	  const accordions = document.getElementsByClassName("accordions");
+	  for (let i = 0; i < accordions.length; i++) {
+	    Accordion.init(accordions[i]);
 	  }
-	});
+	})();
 
 
 	$('.owl-service-item').owlCarousel({
@@ -173,28 +203,20 @@
 	    });
 	});
 
-	function onScroll(event) {
-    var scrollPos = $(document).scrollTop();
-
-    $('.nav a').each(function () {
-        var currLink = $(this);
-        var refSelector = currLink.attr("href");
-        var refElement = $(refSelector);
-
-        // Verifica se o elemento existe e tem posição definida
-        if (refElement.length && refElement.position()) {
-            var refTop = refElement.position().top;
-            var refBottom = refTop + refElement.height();
-
-            if (refTop <= scrollPos && refBottom > scrollPos) {
-                $('.nav ul li a').removeClass("active");
-                currLink.addClass("active");
-            } else {
-                currLink.removeClass("active");
-            }
-        }
-    });
-}
+	function onScroll(event){
+	    var scrollPos = $(document).scrollTop();
+	    $('.nav a').each(function () {
+	        var currLink = $(this);
+	        var refElement = $(currLink.attr("href"));
+	        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+	            $('.nav ul li a').removeClass("active");
+	            currLink.addClass("active");
+	        }
+	        else{
+	            currLink.removeClass("active");
+	        }
+	    });
+	}
 
 
 	// Page loading animation
@@ -255,43 +277,42 @@
     }
 
 
-	function visible($element, partial) {
-		var $w = jQuery(window),
-		viewTop = $w.scrollTop(),
-		viewBottom = viewTop + $w.height(),
-		_top = $element.offset().top,
-		_bottom = _top + $element.height(),
-		compareTop = partial === true ? _bottom : _top,
-		compareBottom = partial === true ? _top : _bottom;
+	function visible(partial) {
+        var $t = partial,
+            $w = jQuery(window),
+            viewTop = $w.scrollTop(),
+            viewBottom = viewTop + $w.height(),
+            _top = $t.offset().top,
+            _bottom = _top + $t.height(),
+            compareTop = partial === true ? _bottom : _top,
+            compareBottom = partial === true ? _top : _bottom;
 
-		return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $element.is(':visible'));
-	}
+        return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $t.is(':visible'));
 
+    }
 
-    if(window.location.href.indexOf("index.html")){
-		$(window).scroll(function() {
+    $(window).scroll(function() {
 
-			if (visible($('.count-digit'))) {
-				if ($('.count-digit').hasClass('counter-loaded')) return;
-				$('.count-digit').addClass('counter-loaded');
+        if (visible($('.count-digit'))) {
+            if ($('.count-digit').hasClass('counter-loaded')) return;
+            $('.count-digit').addClass('counter-loaded');
 
-				$('.count-digit').each(function() {
-					var $this = $(this);
-					jQuery({
-						Counter: 0
-					}).animate({
-						Counter: $this.text()
-					}, {
-						duration: 3000,
-						easing: 'swing',
-						step: function() {
-							$this.text(Math.ceil(this.Counter));
-						}
-					});
-				});
-			}
-		})
-	}
+            $('.count-digit').each(function() {
+                var $this = $(this);
+                jQuery({
+                    Counter: 0
+                }).animate({
+                    Counter: $this.text()
+                }, {
+                    duration: 3000,
+                    easing: 'swing',
+                    step: function() {
+                        $this.text(Math.ceil(this.Counter));
+                    }
+                });
+            });
+        }
+    })
 
 
 })(window.jQuery);
