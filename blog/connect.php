@@ -3,7 +3,7 @@
 
     global $connect;
     
-    DEFINE("ENVIRONMENT", "development");
+    DEFINE("ENVIRONMENT", "production");
 
     $config = array();
 
@@ -15,9 +15,10 @@
         $config['pass'] = '';
     }else{
         $config['type'] = "mysql";
-        $config["host"] = "localhost:8080";
-        $config['user'] = 'root';
-        $config['pass'] = 'root';
+        $config['name'] = "ezyro_40569818_blog";
+        $config["host"] = "sql100.ezyro.com";
+        $config['user'] = 'ezyro_40569818';
+        $config['pass'] = '3c3bc9bc18883';
     }
 
     $options = [
