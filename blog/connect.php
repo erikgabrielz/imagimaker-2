@@ -3,7 +3,7 @@
 
     global $connect;
     
-    DEFINE("ENVIRONMENT", "production");
+    DEFINE("ENVIRONMENT", "development");
 
     $config = array();
 
