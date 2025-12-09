@@ -1810,20 +1810,32 @@ section.meetings-page .timeline{
   flex-direction: column;
 }
 
+section.meetings-page .timeline h5 {
+  text-align: center;
+  color: white;
+}
+
 section.meetings-page .timeline .box{
-  width: 60%;
+  width: 100%;
   background-color: #F4B882;
   height: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-size: 20px;
 }
 
 section.meetings-page .timeline .left{
-  border-radius: 0px 30px 30px 0px;
+  max-width: 60%;
+  align-self: flex-start;
 }
 
 section.meetings-page .timeline .right{
-  border-radius: 30px 0px 0px 30px;
+  max-width: 60%;
   align-self: flex-end;
 }
 
