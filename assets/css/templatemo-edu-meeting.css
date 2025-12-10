@@ -1805,6 +1805,22 @@ section.meetings-page .cursos-anuais .item .down-content a{
   max-width: 50%;
 }
 
+section.meetings-page .box .content{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+section.meetings-page .box .content p{
+  padding: 50px;
+  color: white;
+  text-align: justify;
+}
+
+section.meetings-page .box .content img{
+  border-radius: 10px;
+}
+
+
 section.meetings-page .timeline{
   display: flex;
   flex-direction: column;
@@ -1821,12 +1837,16 @@ section.meetings-page .timeline .box{
   height: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px;
   font-size: 20px;
+}
+
+
+section.meetings-page .timeline .box .content img{
+  display: flex;
 }
 
 section.meetings-page .timeline .left{
