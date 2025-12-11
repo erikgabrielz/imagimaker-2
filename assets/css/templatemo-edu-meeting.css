@@ -1732,7 +1732,7 @@ section.meetings-page {
 
 section.meetings-page .section-heading h2 {
   color: black;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 section.meetings-page .float-box{
@@ -1805,19 +1805,43 @@ section.meetings-page .cursos-anuais .item .down-content a{
   max-width: 50%;
 }
 
+section.mission-vision-values{
+  padding-top: 100px;
+  background-color: #FD9753;
+  padding-bottom: 100px;
+}
+
+section.meetings-page .radius{
+  border-radius: 30px;
+}
+
+section.meetings-page .radius-col-left{
+  border-radius: 20%;
+}
+
+section.meetings-page .radius-col-right{
+  border-radius: 20%;
+}
+
+
+
 section.meetings-page .box .content{
   display: flex;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 section.meetings-page .box .content p{
-  padding: 50px;
+  margin: auto;
   color: white;
   text-align: justify;
+  max-width: 60%;
 }
 
 section.meetings-page .box .content img{
   border-radius: 10px;
+  width: 300px;
+  height: 300px;
 }
 
 
@@ -1831,17 +1855,65 @@ section.meetings-page .timeline h5 {
   color: white;
 }
 
+section.meetings-page .timeline .link a{
+  display: block;
+  padding: 10px 30px;
+  color: white;
+  background-color: #332EB8;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+section.meetings-page .timeline .images-column{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+section.meetings-page .timeline .images-column img{
+  width: 450px;
+  height: 250px;
+}
+
+
+
+
+
 section.meetings-page .timeline .box{
   width: 100%;
   background-color: #F4B882;
-  height: 400px;
+  min-height: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding: 50px;
   font-size: 20px;
+  text-align: justify;
+}
+
+
+section.meetings-page .timeline .box .partition{
+  margin-top: 30px;
+  display: flex;
+}
+
+section.meetings-page .timeline .box .partition div{
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 200px;
+}
+
+section.meetings-page .timeline .box .partition div a{
+  display: block;
+  padding: 10px 30px;
+  color: white;
+  background-color: #332EB8;
+  border-radius: 10px;
 }
 
 
@@ -1858,6 +1930,7 @@ section.meetings-page .timeline .right{
   max-width: 60%;
   align-self: flex-end;
 }
+
 
 
 

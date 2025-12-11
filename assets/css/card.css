@@ -25,7 +25,7 @@
     justify-content: center;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
     color: white;
-    background-color: #BC6C25;
+    background-image: url('../images/about-education.jpg');
     border-radius: 2rem;
     text-align: center;
     font-weight: bold;
