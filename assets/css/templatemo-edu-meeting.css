@@ -1882,7 +1882,7 @@ section.meetings-page .timeline .images-column img{
 section.meetings-page .timeline .box{
   width: 100%;
   background-color: #F4B882;
-  min-height: 400px;
+  min-height: fit-content;
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
