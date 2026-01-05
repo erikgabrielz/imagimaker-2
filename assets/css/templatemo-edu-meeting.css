@@ -1811,51 +1811,50 @@ section.mission-vision-values{
   padding-bottom: 100px;
 }
 
-section.meetings-page .radius{
+.radius{
   border-radius: 30px;
 }
 
-section.meetings-page .radius-col-left{
+.radius-col-left{
   border-radius: 20%;
 }
 
-section.meetings-page .radius-col-right{
+.radius-col-right{
   border-radius: 20%;
 }
 
 
-
-section.meetings-page .box .content{
+.box .content{
   display: flex;
   margin-bottom: 30px;
   flex-wrap: wrap;
 }
 
-section.meetings-page .box .content p{
+.box .content p{
   margin: auto;
   color: white;
   text-align: justify;
   max-width: 60%;
 }
 
-section.meetings-page .box .content img{
+.box .content img{
   border-radius: 10px;
   width: 300px;
   height: 300px;
 }
 
 
-section.meetings-page .timeline{
+.timeline{
   display: flex;
   flex-direction: column;
 }
 
-section.meetings-page .timeline h5 {
+.timeline h5 {
   text-align: center;
   color: white;
 }
 
-section.meetings-page .timeline .link a{
+.timeline .link a{
   display: block;
   padding: 10px 30px;
   color: white;
@@ -1864,22 +1863,18 @@ section.meetings-page .timeline .link a{
   margin-top: 40px;
 }
 
-section.meetings-page .timeline .images-column{
+.timeline .images-column{
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-section.meetings-page .timeline .images-column img{
+.timeline .images-column img{
   width: 450px;
   height: 250px;
 }
 
-
-
-
-
-section.meetings-page .timeline .box{
+.timeline .box{
   width: 100%;
   background-color: #F4B882;
   min-height: fit-content;
@@ -1895,12 +1890,12 @@ section.meetings-page .timeline .box{
 }
 
 
-section.meetings-page .timeline .box .partition{
+.timeline .box .partition{
   margin-top: 30px;
   display: flex;
 }
 
-section.meetings-page .timeline .box .partition div{
+.timeline .box .partition div{
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -1908,7 +1903,7 @@ section.meetings-page .timeline .box .partition div{
   margin-left: 200px;
 }
 
-section.meetings-page .timeline .box .partition div a{
+.timeline .box .partition div a{
   display: block;
   padding: 10px 30px;
   color: white;
@@ -1916,20 +1911,35 @@ section.meetings-page .timeline .box .partition div a{
   border-radius: 10px;
 }
 
+.timeline .box .partition img.circle{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0px 100px;
+}
 
-section.meetings-page .timeline .box .content img{
+.timeline .box .content img{
   display: flex;
 }
 
-section.meetings-page .timeline .left{
+.timeline .left{
   max-width: 60%;
   align-self: flex-start;
 }
 
-section.meetings-page .timeline .right{
+.timeline .right{
   max-width: 60%;
   align-self: flex-end;
 }
+
+
+
+section.formacao-docente{
+  background-color: #808080;
+  padding: 50px 0px;
+}
+
+
 
 
 
