@@ -1815,15 +1815,6 @@ section.mission-vision-values{
   border-radius: 30px;
 }
 
-.radius-col-left{
-  border-radius: 20%;
-}
-
-.radius-col-right{
-  border-radius: 20%;
-}
-
-
 .box .content{
   display: flex;
   margin-bottom: 30px;
@@ -1893,6 +1884,35 @@ section.mission-vision-values{
 .timeline .box .partition{
   margin-top: 30px;
   display: flex;
+  align-items: flex-end;
+}
+
+.timeline .fotos{
+  display: flex;
+  gap: 50px;
+  max-width: 100% !important;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.timeline .fotos .images-column img {
+  border-radius: 15px;
+}
+
+.timeline .fotos .text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline .fotos .text h1 {
+  margin-bottom: 60px;
+  margin-right: -50px;
+}
+
+.timeline .box ul li{
+  list-style-type: disc !important;
+  padding: 10px;
 }
 
 .timeline .box .partition div{
@@ -1922,17 +1942,20 @@ section.mission-vision-values{
   display: flex;
 }
 
-.timeline .left{
-  max-width: 60%;
-  align-self: flex-start;
+.timeline .colecoes{
+  display: flex;
+  max-width: 50%;
 }
 
-.timeline .right{
-  max-width: 60%;
-  align-self: flex-end;
+.timeline .colecoes img{
+  width: 200px;
+  height: 300px;
+  margin-right: 80px;
 }
 
-
+.timeline .colecoes div{
+ max-width: 50%;
+}
 
 section.formacao-docente{
   background-color: #808080;
