@@ -1103,7 +1103,7 @@ section-about-education
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin-top: 100px;
+ 
   margin-bottom: 100px;
   padding: 100px 0px;
 }
@@ -1942,6 +1942,21 @@ section.mission-vision-values{
   display: flex;
 }
 
+.timeline .box p {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+p.text-box a{
+  color: white;
+  transition: all .2s ease-in-out;
+}
+
+p.text-box a:hover{
+  color: #F17C0E;
+
+}
+
 .timeline .colecoes{
   display: flex;
   max-width: 50%;
@@ -1957,12 +1972,22 @@ section.mission-vision-values{
  max-width: 50%;
 }
 
+
+
+
 section.formacao-docente{
-  background-color: #808080;
+  background-color: #F17C0E;
   padding: 50px 0px;
+  margin-top: -100px;
 }
 
+section.formacao-docente .item h4{
+  text-align: center;
+}
 
+section.formacao-docente .item p, section.formacao-docente .item h4{
+  color: white;
+}
 
 
 
